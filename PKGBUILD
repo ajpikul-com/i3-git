@@ -5,7 +5,7 @@
 # This PKGBUILD was prepared for pacman 4.1 by William. Thank you. :-)
 
 pkgname=i3-git
-pkgver=4.21.r4.g09670218
+pkgver=9aba43119b1d414ecc217201155e97276b696974
 pkgrel=1
 pkgdesc='An improved dynamic tiling window manager'
 arch=('i686' 'x86_64')
