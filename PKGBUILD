@@ -21,12 +21,12 @@ makedepends=('git' 'bison' 'flex' 'asciidoc' 'xmlto' 'meson')
 optdepends=('i3lock: For locking your screen.'
             'i3status: To display system information with a bar.')
 options=('docs')
-source=('git+https://github.com/i3/i3#branch=next')
+source=('git+https://github.com/ajpikul-com/i3#branch=next')
 sha1sums=('SKIP')
 
 pkgver() {
   cd "$srcdir/i3"
-  git describe --long | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+  git rev-parse next
 }
 
 
